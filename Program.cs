@@ -6,8 +6,8 @@ InGameController inGameController = new InGameController();
 CharacterSelectController characterSelectController = new CharacterSelectController();
 
 mainMenuController.PlayMainMenu();
-await characterSelectController.PlayCharacterSelect();
-inGameController.PlayInGame();
+Character character = await characterSelectController.PlayCharacterSelect();
+inGameController.PlayInGame(character);
 
 
 

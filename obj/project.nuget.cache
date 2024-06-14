@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hYzUv2nNRHQ=",
+  "dgSpecHash": "C1pJfMX/LSI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\RPG-Console-App-Game.csproj",
+  "projectFilePath": "C:\\Users\\Martin\\Desktop\\New folder\\RPG-Console-App-Game\\RPG-Console-App-Game.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Martin\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

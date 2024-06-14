@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RPG_Console_App_Game.Data.Entities;
 
 namespace RPG_Console_App_Game.Controllers
 {
@@ -15,21 +16,21 @@ namespace RPG_Console_App_Game.Controllers
             characterSelectService = new CharacterSelectService();
         }
 
-        public async Task PlayCharacterSelect()
+        public async Task<Character> PlayCharacterSelect()
         {
-            string characterOption = characterSelectService.ChooseCharacter();
-            string yesNoOption = characterSelectService.DoYouWantToBuffYourStats();
+            char characterOption = characterSelectService.ChooseCharacter();
+            char yesNoOption = characterSelectService.DoYouWantToBuffYourStats();
 
             int strengthPoints = 0;
             int agilityPoints = 0;
             int intelligencePoints = 0;
 
-            if (yesNoOption == "Y" || yesNoOption == "y")
+            if (yesNoOption == 'Y' || yesNoOption == 'y')
             {
                 (strengthPoints, agilityPoints, intelligencePoints) = characterSelectService.BuffYourStats();
             }
 
-            await characterSelectService.CreateCharacter(characterOption, strengthPoints, agilityPoints, intelligencePoints);
+            return await characterSelectService.CreateCharacter(characterOption, strengthPoints, agilityPoints, intelligencePoints);
         }
     }
 }

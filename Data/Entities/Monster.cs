@@ -8,6 +8,8 @@ namespace RPG_Console_App_Game.Data.Entities
 {
     public class Monster
     {
+        public char Symbol {  get; set; }
+
         public int StrengthPoints { get; set; }
 
         public int IntelligencePoints { get; set; }
@@ -30,6 +32,7 @@ namespace RPG_Console_App_Game.Data.Entities
         }
         public Monster()
         {
+            Symbol = '!'; //The '◙' character breaks the matrix when printed so i changed it :(
             Random random = new Random();
             StrengthPoints = random.Next(1, 3);
             IntelligencePoints = random.Next(1, 3);

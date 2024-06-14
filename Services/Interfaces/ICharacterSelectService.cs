@@ -9,12 +9,12 @@ namespace RPG_Console_App_Game.Services.Interfaces
 {
     public interface ICharacterSelectService
     {
-        string ChooseCharacter();
+        char ChooseCharacter();
 
-        string DoYouWantToBuffYourStats();
+        char DoYouWantToBuffYourStats();
 
         (int strengthPoints, int agilityPoints, int intelligencePoints) BuffYourStats();
 
-        Task CreateCharacter(string characterOption, int strengthPoints, int agilityPoints, int intelligencePoints);
+        Task<Character> CreateCharacter(char characterOption, int strengthPoints, int agilityPoints, int intelligencePoints);
     }
 }

@@ -26,7 +26,7 @@ namespace RPG_Console_App_Game.GameService
             characterRepositoryMage = new CharacterRepository<Mage>();
         }
 
-        public string ChooseCharacter()
+        public char ChooseCharacter()
         {
             string characterOption = string.Empty;
             string[] availableOptions = { "1", "2", "3" };
@@ -44,10 +44,10 @@ namespace RPG_Console_App_Game.GameService
             }
             while (!availableOptions.Contains(characterOption));
 
-            return characterOption;
+            return characterOption[0];
         }
 
-        public string DoYouWantToBuffYourStats()
+        public char DoYouWantToBuffYourStats()
         {
             string yesNoOption = string.Empty;
             do
@@ -61,7 +61,7 @@ namespace RPG_Console_App_Game.GameService
             }
             while (yesNoOption != "Y" && yesNoOption != "y" && yesNoOption != "N" && yesNoOption != "n");
 
-            return yesNoOption;
+            return yesNoOption[0];
         }
 
         public (int strengthPoints, int agilityPoints, int intelligencePoints) BuffYourStats()
@@ -119,23 +119,32 @@ namespace RPG_Console_App_Game.GameService
             return (strengthPoints, agilityPoints, intelligencePoints);
         }
 
-        public async Task CreateCharacter(string characterOption, int strengthPoints, int agilityPoints, int intelligencePoints)
+        public async Task<Character> CreateCharacter(char characterOption, int strengthPoints, int agilityPoints, int intelligencePoints)
         {
-            if (characterOption == "1")
+            if (characterOption == '1')
             {
                 Warrior warrior = new Warrior(strengthPoints, agilityPoints, intelligencePoints);
                 await characterRepositoryWarrior.CreateCharacter(warrior);
+                return warrior;
             }
-            else if (characterOption == "2")
+            else if (characterOption == '2')
             {
                 Archer archer = new Archer(strengthPoints, agilityPoints, intelligencePoints);
                 await characterRepositoryArcher.CreateCharacter(archer);
+                return archer;
             }
-            else if (characterOption == "3")
+            else if (characterOption == '3')
             {
                 Mage mage = new Mage(strengthPoints, agilityPoints, intelligencePoints);
                 await characterRepositoryMage.CreateCharacter(mage);
-            }       
+                return mage;
+            }
+            else
+            {
+                throw new ArgumentException("Invalid option at CreateCharacter");
+            }
+
+
         }
     }
 }
