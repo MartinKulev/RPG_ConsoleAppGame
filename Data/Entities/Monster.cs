@@ -24,6 +24,8 @@ namespace RPG_Console_App_Game.Data.Entities
 
         public int Range { get; set; }
 
+        public (int x, int y) MonsterPosition { get; set; }
+
         public void Setup()
         {
             Health = StrengthPoints * 5;
@@ -37,6 +39,7 @@ namespace RPG_Console_App_Game.Data.Entities
             StrengthPoints = random.Next(1, 3);
             IntelligencePoints = random.Next(1, 3);
             AgilityPoints = random.Next(1, 3);
+            Range = 1;
         }
     }
 }

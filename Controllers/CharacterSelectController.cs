@@ -11,6 +11,7 @@ namespace RPG_Console_App_Game.Controllers
     public class CharacterSelectController
     {
         private readonly CharacterSelectService characterSelectService;
+
         public CharacterSelectController()
         {
             characterSelectService = new CharacterSelectService();

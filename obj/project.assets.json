@@ -3752,11 +3752,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Martin\\Desktop\\New folder\\RPG-Console-App-Game\\RPG-Console-App-Game.csproj",
+      "projectUniqueName": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\RPG-Console-App-Game.csproj",
       "projectName": "RPG-Console-App-Game",
-      "projectPath": "C:\\Users\\Martin\\Desktop\\New folder\\RPG-Console-App-Game\\RPG-Console-App-Game.csproj",
+      "projectPath": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\RPG-Console-App-Game.csproj",
       "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Martin\\Desktop\\New folder\\RPG-Console-App-Game\\obj\\",
+      "outputPath": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
