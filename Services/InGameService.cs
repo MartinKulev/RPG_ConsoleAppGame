@@ -1,17 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Conventions;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Org.BouncyCastle.Asn1.BC;
-using Org.BouncyCastle.Asn1.IsisMtt.X509;
-using RPG_Console_App_Game.Data.Entities;
+﻿using RPG_Console_App_Game.Data.Entities;
 using RPG_Console_App_Game.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Media;
-using System.Numerics;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace RPG_Console_App_Game.Services
 {
@@ -31,7 +20,7 @@ namespace RPG_Console_App_Game.Services
                 Console.WriteLine("Choose action");
                 Console.WriteLine("1) Attack");
                 Console.WriteLine("2) Move");
-                Console.Write("Your Pick:");
+                Console.Write("Your Pick: ");
                 actionOption = Console.ReadLine();
                 Console.Clear();
             }
@@ -56,7 +45,7 @@ namespace RPG_Console_App_Game.Services
                 Console.WriteLine("X - Move diagonally down & right");
                 Console.WriteLine("Q - Move diagonally up & left");
                 Console.WriteLine("Z - Move diagonally down & left");
-                Console.Write("Your Pick:");
+                Console.Write("Your Pick: ");
                 moveOption = Console.ReadLine();
                 Console.Clear();
             }
@@ -90,7 +79,7 @@ namespace RPG_Console_App_Game.Services
                         Console.WriteLine($"{index}) target with remaining blood {monster.Health}");
                         index++;
                     }
-                    Console.Write("Your Pick:");
+                    Console.Write("Your Pick: ");
                     attackOption = Console.ReadLine();
                     Console.Clear();
                 }
@@ -138,86 +127,91 @@ namespace RPG_Console_App_Game.Services
 
             while (true)
             {
+                int targetX = x;
+                int targetY = y;
+
                 if (moveOption == 'W')
                 {
                     if (x > 0)
                     {
-                        isValidMoveOption = true;
-                        matrix[x, y] = '▒';
-                        matrix[x - 1, y] = character.Symbol;
+                        targetX = x - 1;
                     }
                 }
                 else if (moveOption == 'S')
                 {
                     if (x < matrix.GetLength(0) - 1)
                     {
-                        isValidMoveOption = true;
-                        matrix[x, y] = '▒';
-                        matrix[x + 1, y] = character.Symbol;
+                        targetX = x + 1;
                     }
                 }
                 else if (moveOption == 'D')
                 {
                     if (y < matrix.GetLength(1) - 1)
                     {
-                        isValidMoveOption = true;
-                        matrix[x, y] = '▒';
-                        matrix[x, y + 1] = character.Symbol;
+                        targetY = y + 1;
                     }
                 }
                 else if (moveOption == 'A')
                 {
                     if (y > 0)
                     {
-                        isValidMoveOption = true;
-                        matrix[x, y] = '▒';
-                        matrix[x, y - 1] = character.Symbol;
+                        targetY = y - 1;
                     }
                 }
                 else if (moveOption == 'E')
                 {
                     if (x > 0 && y < matrix.GetLength(1) - 1)
                     {
-                        isValidMoveOption = true;
-                        matrix[x, y] = '▒';
-                        matrix[x - 1, y + 1] = character.Symbol;
+                        targetX = x - 1;
+                        targetY = y + 1;
                     }
                 }
                 else if (moveOption == 'X')
                 {
                     if (x < matrix.GetLength(0) - 1 && y < matrix.GetLength(1) - 1)
                     {
-                        isValidMoveOption = true;
-                        matrix[x, y] = '▒';
-                        matrix[x + 1, y + 1] = character.Symbol;
+                        targetX = x + 1;
+                        targetY = y + 1;
                     }
                 }
                 else if (moveOption == 'Q')
                 {
                     if (x > 0 && y > 0)
                     {
-                        isValidMoveOption = true;
-                        matrix[x, y] = '▒';
-                        matrix[x - 1, y - 1] = character.Symbol;
+                        targetX = x - 1;
+                        targetY = y - 1;
                     }
                 }
                 else if (moveOption == 'Z')
                 {
                     if (x < matrix.GetLength(0) - 1 && y > 0)
                     {
-                        isValidMoveOption = true;
-                        matrix[x, y] = '▒';
-                        matrix[x + 1, y - 1] = character.Symbol;
+                        targetX = x + 1;
+                        targetY = y - 1;
                     }
                 }
+
+                if (targetX != x || targetY != y)
+                {
+                    if (matrix[targetX, targetY] != '!')
+                    {
+                        isValidMoveOption = true;
+                        matrix[x, y] = '▒';
+                        matrix[targetX, targetY] = character.Symbol;
+                    }
+                }
+
                 if (isValidMoveOption)
                 {
                     break;
                 }
+
                 moveOption = PrintMatrixLayoutMoveOpiton(matrix, character);
             }
+
             return matrix;
         }
+
 
         public (int x, int y) FindPlayerIndex(char[,] matrix, Character character)
         {
@@ -285,12 +279,16 @@ namespace RPG_Console_App_Game.Services
             if (monster.Health <= 0)
             {
                 MonstersSpawned.Remove(monster);
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("You killed a monster!");
+                Console.ResetColor();
                 matrix[monsterPosition.monsterX, monsterPosition.monsterY] = '▒';
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine($"Monster's remaining blood {monster.Health}");
+                Console.ResetColor();
             }
             Console.WriteLine("Press any key to continue!");
             Console.ReadKey();
@@ -321,10 +319,14 @@ namespace RPG_Console_App_Game.Services
             if (isCharacterAttacked == true)
             {
                 PrintMatrix(matrix, character);
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine(linesToPrint);
+                Console.ResetColor();
                 if (character.Health <= 0)
                 {
-                    linesToPrint.AppendLine("You died!");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("You died!");
+                    Console.ResetColor();
                 }
                 Console.WriteLine("Press any key to continue!");
                 Console.ReadKey();

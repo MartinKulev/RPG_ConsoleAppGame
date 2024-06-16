@@ -1,15 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Conventions;
-using Microsoft.VisualBasic.FileIO;
-using RPG_Console_App_Game.Data.Entities;
+﻿using RPG_Console_App_Game.Data.Entities;
 using RPG_Console_App_Game.Repositories;
-using RPG_Console_App_Game.Repositories.Interfaces;
 using RPG_Console_App_Game.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace RPG_Console_App_Game.GameService
 {
@@ -55,7 +46,7 @@ namespace RPG_Console_App_Game.GameService
                 Console.WriteLine("Character Select");
                 Console.WriteLine();
                 Console.WriteLine("Would you like to buff up your stats before starting? (Limit: 3 points total)");
-                Console.Write("Response (Y\\N):");
+                Console.Write("Response (Y\\N): ");
                 yesNoOption = Console.ReadLine();
                 Console.Clear();
             }
