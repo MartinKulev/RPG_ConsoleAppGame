@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RPG_Console_App_Game.Data.Entities;
+using System.Text.Json;
 
 namespace RPG_Console_App_Game.Data
 {
@@ -14,7 +15,12 @@ namespace RPG_Console_App_Game.Data
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("Server=mysql-210770ab-techstore.b.aivencloud.com;Database=RPGConsoleAppGame;Uid=avnadmin;Pwd=AVNS_ECNjUML_9rCSuGwr_PA;Port=15039");
+            string jsonFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "GitSecrets.json");
+            string json = File.ReadAllText(jsonFilePath);
+            JsonElement root = JsonDocument.Parse(json).RootElement;
+
+            string? connectionString = root.GetProperty("ConnectionStrings").GetProperty("RPG_ConsoleAppGame").GetString();
+            optionsBuilder.UseMySQL(connectionString);
             base.OnConfiguring(optionsBuilder);
         }
     }

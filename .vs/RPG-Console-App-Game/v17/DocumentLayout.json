@@ -1,89 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\",
+  "WorkspaceRootPath": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\services\\ingameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:services\\ingameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\services\\characterselectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:services\\characterselectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\services\\mainmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:services\\mainmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\services\\interfaces\\iingameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:services\\interfaces\\iingameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\services\\interfaces\\icharacterselectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:services\\interfaces\\icharacterselectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\controllers\\characterselectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:controllers\\characterselectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\controllers\\ingamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:controllers\\ingamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\controllers\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:controllers\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\data\\entities\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\entities\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\data\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\data\\entities\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\entities\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\data\\entities\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\entities\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\data\\entities\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\entities\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\data\\migrations\\gamedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\migrations\\gamedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\data\\migrations\\20240613210641_changedidtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\migrations\\20240613210641_changedidtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\data\\migrations\\20240613200707_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\migrations\\20240613200707_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\gamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\repositories\\interfaces\\icharacterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:repositories\\interfaces\\icharacterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\repositories\\characterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\repositories\\characterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:repositories\\characterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\rpg-console-app-game\\services\\interfaces\\imainmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\services\\ingameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:services\\ingameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\services\\characterselectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:services\\characterselectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\services\\mainmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:services\\mainmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\services\\interfaces\\iingameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:services\\interfaces\\iingameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\services\\interfaces\\icharacterselectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:services\\interfaces\\icharacterselectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\controllers\\characterselectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:controllers\\characterselectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\controllers\\ingamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:controllers\\ingamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\controllers\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:controllers\\mainmenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\data\\entities\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\entities\\archer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\data\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\entities\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\data\\entities\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\entities\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\data\\entities\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\entities\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\data\\entities\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\entities\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\data\\migrations\\gamedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\migrations\\gamedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\data\\migrations\\20240613210641_changedidtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\migrations\\20240613210641_changedidtoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\data\\migrations\\20240613200707_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:data\\migrations\\20240613200707_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\repositories\\interfaces\\icharacterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:repositories\\interfaces\\icharacterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|c:\\users\\martin\\desktop\\githubprojects\\rpg_consoleappgame\\services\\interfaces\\imainmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2A9396D-6C95-4CE9-A081-D3E735759A36}|RPG-Console-App-Game.csproj|solutionrelative:services\\interfaces\\imainmenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -94,58 +94,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "MainMenuController.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Controllers\\MainMenuController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MainMenuController.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Controllers\\MainMenuController.cs",
-              "RelativeToolTip": "Controllers\\MainMenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:17:49.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InGameController.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Controllers\\InGameController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InGameController.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Controllers\\InGameController.cs",
-              "RelativeToolTip": "Controllers\\InGameController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:18:29.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "CharacterSelectController.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Controllers\\CharacterSelectController.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Controllers\\CharacterSelectController.cs",
               "RelativeDocumentMoniker": "Controllers\\CharacterSelectController.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Controllers\\CharacterSelectController.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Controllers\\CharacterSelectController.cs",
               "RelativeToolTip": "Controllers\\CharacterSelectController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:18:06.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T19:18:06.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Program.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -154,37 +135,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ICharacterSelectService.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\Interfaces\\ICharacterSelectService.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\Interfaces\\ICharacterSelectService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ICharacterSelectService.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\Interfaces\\ICharacterSelectService.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\Interfaces\\ICharacterSelectService.cs",
               "RelativeToolTip": "Services\\Interfaces\\ICharacterSelectService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T21:11:35.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T21:11:35.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CharacterSelectService.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\CharacterSelectService.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\CharacterSelectService.cs",
               "RelativeDocumentMoniker": "Services\\CharacterSelectService.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\CharacterSelectService.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\CharacterSelectService.cs",
               "RelativeToolTip": "Services\\CharacterSelectService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:14:53.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T19:14:53.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "InGameService.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\InGameService.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\InGameService.cs",
               "RelativeDocumentMoniker": "Services\\InGameService.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\InGameService.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\InGameService.cs",
               "RelativeToolTip": "Services\\InGameService.cs",
               "ViewState": "AgIAAIABAAAAAAAAAAAkwIoBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,141 +172,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainMenuService.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\MainMenuService.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\MainMenuService.cs",
               "RelativeDocumentMoniker": "Services\\MainMenuService.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\MainMenuService.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\MainMenuService.cs",
               "RelativeToolTip": "Services\\MainMenuService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:15:23.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T19:15:23.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "IInGameService.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\Interfaces\\IInGameService.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\Interfaces\\IInGameService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IInGameService.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\Interfaces\\IInGameService.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\Interfaces\\IInGameService.cs",
               "RelativeToolTip": "Services\\Interfaces\\IInGameService.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAuwAAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T21:13:36.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T21:13:36.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Archer.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Entities\\Archer.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Archer.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Entities\\Archer.cs",
-              "RelativeToolTip": "Data\\Entities\\Archer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:11:14.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Entities\\Character.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Character.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Entities\\Character.cs",
-              "RelativeToolTip": "Data\\Entities\\Character.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAMAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:08:32.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Mage.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Entities\\Mage.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Mage.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Entities\\Mage.cs",
-              "RelativeToolTip": "Data\\Entities\\Mage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:11:29.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Monster.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Entities\\Monster.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Monster.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Entities\\Monster.cs",
-              "RelativeToolTip": "Data\\Entities\\Monster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:48:25.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Warrior.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Entities\\Warrior.cs",
-              "RelativeDocumentMoniker": "Data\\Entities\\Warrior.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Entities\\Warrior.cs",
-              "RelativeToolTip": "Data\\Entities\\Warrior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T18:11:02.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GameDBContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Migrations\\GameDBContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\GameDBContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Migrations\\GameDBContextModelSnapshot.cs",
-              "RelativeToolTip": "Data\\Migrations\\GameDBContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T10:19:38.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20240613200707_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Migrations\\20240613200707_Initial.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240613200707_Initial.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Migrations\\20240613200707_Initial.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240613200707_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-16T10:19:25.657Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ICharacterRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Repositories\\Interfaces\\ICharacterRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICharacterRepository.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Repositories\\Interfaces\\ICharacterRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\ICharacterRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T20:34:11.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 1,
               "Title": "CharacterRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Repositories\\CharacterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Repositories\\CharacterRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CharacterRepository.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Repositories\\CharacterRepository.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Repositories\\CharacterRepository.cs",
               "RelativeToolTip": "Repositories\\CharacterRepository.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAwwAMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -336,42 +209,160 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IMainMenuService.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\Interfaces\\IMainMenuService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IMainMenuService.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Services\\Interfaces\\IMainMenuService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IMainMenuService.cs",
+              "DocumentIndex": 0,
+              "Title": "GameDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\GameDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\GameDBContext.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\GameDBContext.cs*",
+              "RelativeToolTip": "Data\\GameDBContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:53:57.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InGameController.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Controllers\\InGameController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InGameController.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Controllers\\InGameController.cs",
+              "RelativeToolTip": "Controllers\\InGameController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T21:14:25.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T19:18:29.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainMenuController.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Controllers\\MainMenuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MainMenuController.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Controllers\\MainMenuController.cs",
+              "RelativeToolTip": "Controllers\\MainMenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T19:17:49.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Archer.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Entities\\Archer.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Archer.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Entities\\Archer.cs",
+              "RelativeToolTip": "Data\\Entities\\Archer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:11:14.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Entities\\Character.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Character.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Entities\\Character.cs",
+              "RelativeToolTip": "Data\\Entities\\Character.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:08:32.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Mage.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Entities\\Mage.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Mage.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Entities\\Mage.cs",
+              "RelativeToolTip": "Data\\Entities\\Mage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:11:29.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Entities\\Monster.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Monster.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Entities\\Monster.cs",
+              "RelativeToolTip": "Data\\Entities\\Monster.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:48:25.295Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "20240613210641_changedIDToInt.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Migrations\\20240613210641_changedIDToInt.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240613210641_changedIDToInt.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\Migrations\\20240613210641_changedIDToInt.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240613210641_changedIDToInt.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Title": "Warrior.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Entities\\Warrior.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Warrior.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Entities\\Warrior.cs",
+              "RelativeToolTip": "Data\\Entities\\Warrior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T21:06:41.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T18:11:02.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Migrations\\GameDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\GameDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Migrations\\GameDBContextModelSnapshot.cs",
+              "RelativeToolTip": "Data\\Migrations\\GameDBContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:19:38.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240613200707_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Migrations\\20240613200707_Initial.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240613200707_Initial.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Migrations\\20240613200707_Initial.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240613200707_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:19:25.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICharacterRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Repositories\\Interfaces\\ICharacterRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICharacterRepository.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Repositories\\Interfaces\\ICharacterRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ICharacterRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T20:34:11.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IMainMenuService.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\Interfaces\\IMainMenuService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IMainMenuService.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Services\\Interfaces\\IMainMenuService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IMainMenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:14:25.332Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "GameDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\GameDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\GameDBContext.cs",
-              "ToolTip": "C:\\Users\\Martin\\Desktop\\RPG-Console-App-Game\\Data\\GameDBContext.cs",
-              "RelativeToolTip": "Data\\GameDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
+              "Title": "20240613210641_changedIDToInt.cs",
+              "DocumentMoniker": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Migrations\\20240613210641_changedIDToInt.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240613210641_changedIDToInt.cs",
+              "ToolTip": "C:\\Users\\Martin\\Desktop\\GitHubProjects\\RPG_ConsoleAppGame\\Data\\Migrations\\20240613210641_changedIDToInt.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240613210641_changedIDToInt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T19:53:57.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-13T21:06:41.37Z"
             }
           ]
         }
